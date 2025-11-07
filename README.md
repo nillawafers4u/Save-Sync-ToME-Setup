@@ -1,6 +1,10 @@
 Easy little script I made to setup my autosave system for ToME.
 
-Simply down the .bat or clone this repo.
+The autosave system syncs your save files and profile(unlocks) to a github repository.
+
+It SHOULD compare dates on same named files and keep the newest. (recommend backing up save and profiles folders before running the script)
+
+Simply download the zip or clone this repo.
 
 Open the .bat in a file editor and change the repo address to a new private repo you create and run the bat.
 
