@@ -1,4 +1,5 @@
-﻿# CONFIGURATION
+# 2> nul & powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "([System.IO.StreamReader]::new('%~f0')).ReadToEnd() | Invoke-Expression" & EXIT /B
+# CONFIGURATION
 $RepoUrl = "https://github.com/nillawafers4u/Save-Sync-ToME.git"
 $GameFolder = "$env:USERPROFILE\T-Engine\4.0\tome\save"
 $LocalRepo = "$env:USERPROFILE\Save-Sync-ToME"
@@ -186,3 +187,5 @@ Write-Host "✅ Junciton Link setup for Profiles complete!" -ForegroundColor Gre
 
 Write-Host "🎉 Setup complete! You can now run the game with your shortcut found in the repo folder!" -ForegroundColor Green
 Read-Host "`nPress Enter to close"
+
+exit 42
